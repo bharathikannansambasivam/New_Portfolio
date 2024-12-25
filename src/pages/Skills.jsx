@@ -1,15 +1,16 @@
 import React from "react";
-import javascript from "../assets/javascript.svg";
-import html from "../assets/html.svg";
-import css from "../assets/css.svg";
-import react from "../assets/react.svg";
-import mongodb from "../assets/mongodb.svg";
-import mongoose from "../assets/mongoose.svg";
-import expressjs from "../assets/expressjs.svg";
-import node from "../assets/nodejs.svg";
-import figma from "../assets/figma.svg";
-import tailwindcss from "../assets/tailwind.svg";
-import github from "../assets/github.svg";
+import javascript from "../assets/skills_icon/javascript.svg";
+import html from "../assets/skills_icon/html.svg";
+import css from "../assets/skills_icon/css.svg";
+import react from "../assets/skills_icon/react.svg";
+import mongodb from "../assets/skills_icon/mongodb.svg";
+import mongoose from "../assets/skills_icon/mongoose.svg";
+import expressjs from "../assets/skills_icon/expressjs.svg";
+import node from "../assets/skills_icon/nodejs.svg";
+import figma from "../assets/skills_icon/figma.svg";
+import tailwindcss from "../assets/skills_icon/tailwind.svg";
+import github from "../assets/skills_icon/github.svg";
+import postman from "../assets/skills_icon/postman.svg";
 
 function Skills() {
   const skills = [
@@ -22,6 +23,7 @@ function Skills() {
     { name: "Express.js", icon: expressjs },
     { name: "MongoDB", icon: mongodb },
     { name: "Mongoose", icon: mongoose },
+    { name: "Postman", icon: postman },
     { name: "Figma", icon: figma },
     { name: "GitHub", icon: github },
   ];

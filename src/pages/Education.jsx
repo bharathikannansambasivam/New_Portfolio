@@ -1,8 +1,8 @@
 import React from "react";
-import sslc from "../assets/sslc.svg";
-import hsc from "../assets/hsc.svg";
-import ug from "../assets/ug.svg";
-import pg from "../assets/pg.svg";
+import sslc from "../assets/education_icons/sslc.svg";
+import hsc from "../assets/education_icons/hsc.svg";
+import ug from "../assets/education_icons/ug.svg";
+import pg from "../assets/education_icons/pg.svg";
 
 function About() {
   const education = [
