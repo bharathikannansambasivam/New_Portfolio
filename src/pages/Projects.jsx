@@ -6,6 +6,8 @@ import todo from "../assets/project_icons/todo.jpg";
 import github from "../assets/skills_icon/github.svg";
 import live from "../assets/project_icons/live.svg";
 import playstore from "../assets/project_icons/playstore.svg";
+import dictionary from "../assets/project_icons/dictionary.jpg";
+import githubAPI from "../assets/project_icons/githubAPI.jpeg";
 
 function Projects() {
   const projects = [
@@ -53,11 +55,24 @@ function Projects() {
       features:
         "Interactive credit card form using Formik and Yup for form validation and handling.",
     },
+    {
+      img: dictionary,
+      project_name: "Dictionary web app- Frontend Mentor Challenge",
+      Technologies: "React, Tailwind CSS, Dictionary API, Unsplash API",
+      github_repo:
+        "https://github.com/bharathikannansambasivam/Dictionary-web-app",
+      live_url: "https://dictionarymaster.netlify.app/",
+      features:
+        "Search word meanings with audio pronunciation and related images.",
+    },
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8 overflow-hidden max-w-full">
-      <h1 className="text-3xl font-bold underline mb-6 text-center">
+    <div
+      id="projects"
+      className="container mx-auto px-4 py-8 overflow-hidden max-w-full"
+    >
+      <h1 className="text-3xl font-bold underline mb-6 text-center sm:text-start  sm:ml-5">
         Projects
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

@@ -1,6 +1,5 @@
 import React from "react";
-
-import Router from "./pages/Routes";
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
@@ -10,7 +9,7 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="font-lato">
-      <Router />
+      <Navbar />
       <Header />
       <Skills />
       <Education />

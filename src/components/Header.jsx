@@ -13,7 +13,7 @@ function Header() {
   ];
 
   return (
-    <div className="bg-blue-50 pl-12 p-5">
+    <div id="home" className="bg-blue-50 pl-12 p-5">
       <div className="flex flex-col ">
         <h3 className="font-bold text-xl  sm:text-4xl ">Hello! I'm</h3>
         <h1 className="font-extrabold text-3xl sm:text-6xl  text-violet-700">
@@ -29,8 +29,11 @@ function Header() {
       </p>
 
       <div className="flex  gap-5">
-        {button.map((btn) => (
-          <button className="bg-orange-500 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 ">
+        {button.map((btn, index) => (
+          <button
+            key={index}
+            className="bg-orange-500 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
+          >
             <a href={btn.link} target="_blank">
               {btn.content}
             </a>{" "}

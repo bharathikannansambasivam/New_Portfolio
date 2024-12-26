@@ -44,8 +44,10 @@ function About() {
   ];
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline mb-6">Educations</h1>
+    <div id="education">
+      <h1 className="text-3xl font-bold underline  text-center  sm:ml-10 sm:text-start">
+        Educations
+      </h1>
 
       <div
         id="about"
@@ -88,7 +90,7 @@ function About() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

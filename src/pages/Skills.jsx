@@ -29,11 +29,13 @@ function Skills() {
   ];
 
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline  mb-2">Skills</h1>
+    <div id="skills">
+      <h1 className="text-3xl font-bold underline mt-3 text-center sm:text-start  sm:ml-10">
+        Skills
+      </h1>
       <div className="flex flex-wrap justify-center gap-6 p-4">
-        {skills.map((skill) => (
-          <div className=" p-3">
+        {skills.map((skill, index) => (
+          <div key={index} className=" p-3">
             <img
               key={skill.name}
               className="h-16 w-16  hover:scale-110 transition-transform duration-200"
