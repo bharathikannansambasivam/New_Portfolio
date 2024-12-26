@@ -8,7 +8,7 @@ function Header() {
     },
     {
       content: "Resume",
-      link: "../assets/resume.pdf",
+      link: "/resume.pdf",
     },
   ];
 
