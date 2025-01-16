@@ -129,6 +129,18 @@ function Projects() {
           </div>
         ))}
       </div>
+
+      <div className="w-full  text-center">
+        <button className="bg-orange-500 text-center p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 ">
+          <a
+            className="bg-orange-500 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
+            href="https://www.frontendmentor.io/profile/bharathikannansambasivam"
+          >
+            {" "}
+            More Projects
+          </a>
+        </button>
+      </div>
     </div>
   );
 }

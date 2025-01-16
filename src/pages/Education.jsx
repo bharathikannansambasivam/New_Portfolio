@@ -7,21 +7,13 @@ import pg from "../assets/education_icons/pg.svg";
 function About() {
   const education = [
     {
-      instituteName:
-        "Sri Kumara Gurubarar Matriculation Higher Secondary School",
-      place: "Thiruppanandal",
-      course: "SSLC (Secondary School Leaving Certificate)",
-      duration: "2018-2019",
-      grade: "81%",
-      image: sslc,
-    },
-    {
-      instituteName: "Little Flower Higher Secondary School",
-      place: "Kumbakonam",
-      course: "HSC (Higher Secondary Certificate)",
-      duration: "2020-2021",
-      grade: "85%",
-      image: hsc,
+      instituteName: "Annai College Of Arts & Science ",
+      place: "Kovilachery,Kumbakonam",
+
+      course: "Master of Computer Applications (MCA)",
+      duration: "08/2024 - Present",
+      grade: "Pursuing",
+      image: pg,
     },
     {
       instituteName: "Government Arts College (Autonomous)",
@@ -33,13 +25,22 @@ function About() {
       image: ug,
     },
     {
-      instituteName: "Annai College Of Arts & Science ",
-      place: "Kovilachery,Kumbakonam",
+      instituteName: "Little Flower Higher Secondary School",
+      place: "Kumbakonam",
+      course: "HSC (Higher Secondary Certificate)",
+      duration: "2020-2021",
+      grade: "85%",
+      image: hsc,
+    },
 
-      course: "Master of Computer Applications (MCA)",
-      duration: "08/2024 - Present",
-      grade: "Pursuing",
-      image: pg,
+    {
+      instituteName:
+        "Sri Kumara Gurubarar Matriculation Higher Secondary School",
+      place: "Thiruppanandal",
+      course: "SSLC (Secondary School Leaving Certificate)",
+      duration: "2018-2019",
+      grade: "81%",
+      image: sslc,
     },
   ];
 
@@ -51,7 +52,7 @@ function About() {
 
       <div
         id="about"
-        className="flex flex-col justify-center items-center p-5 sm:p-2 "
+        className="flex flex-col flex-row-reverse justify-center items-center p-5 sm:p-2 "
       >
         <div className="relative border-l-4 border-orange-500 top-6  ">
           {education.map((edu, index) => (
