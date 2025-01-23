@@ -6,6 +6,11 @@ function Navbar() {
 
   const handleToggle = () => {
     setToggle(!toggle);
+    if (!toggle) {
+      setTimeout(() => {
+        setToggle(false);
+      }, 3000);
+    }
   };
 
   return (

@@ -7,7 +7,6 @@ import github from "../assets/skills_icon/github.svg";
 import live from "../assets/project_icons/live.svg";
 import playstore from "../assets/project_icons/playstore.svg";
 import dictionary from "../assets/project_icons/dictionary.jpg";
-import githubAPI from "../assets/project_icons/githubAPI.jpeg";
 
 function Projects() {
   const projects = [
@@ -131,9 +130,10 @@ function Projects() {
       </div>
 
       <div className="w-full  text-center">
-        <button className="bg-orange-500 text-center p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 ">
+        <button className="text-center p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 ">
+          {" "}
           <a
-            className="bg-orange-500 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
+            className="bg-orange-500 flex gap-3 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
             href="https://www.frontendmentor.io/profile/bharathikannansambasivam"
           >
             {" "}

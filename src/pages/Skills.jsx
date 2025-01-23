@@ -3,6 +3,8 @@ import javascript from "../assets/skills_icon/javascript.svg";
 import html from "../assets/skills_icon/html.svg";
 import css from "../assets/skills_icon/css.svg";
 import react from "../assets/skills_icon/react.svg";
+import materialUI from "../assets/skills_icon/materialUI.svg";
+import storybook from "../assets/skills_icon/storybook.svg";
 import mongodb from "../assets/skills_icon/mongodb.svg";
 import mongoose from "../assets/skills_icon/mongoose.svg";
 import expressjs from "../assets/skills_icon/expressjs.svg";
@@ -16,9 +18,12 @@ function Skills() {
   const skills = [
     { name: "HTML", icon: html },
     { name: "CSS", icon: css },
-    { name: "JavaScript", icon: javascript },
     { name: "Tailwind CSS", icon: tailwindcss },
+    { name: "JavaScript", icon: javascript },
+
     { name: "React", icon: react },
+    { name: "Material UI", icon: materialUI },
+    { name: "Storybook", icon: storybook },
     { name: "Node.js", icon: node },
     { name: "Express.js", icon: expressjs },
     { name: "MongoDB", icon: mongodb },
