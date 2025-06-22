@@ -129,17 +129,16 @@ function Projects() {
         ))}
       </div>
 
-      <div className="w-full  text-center">
-        <button className="text-center p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 ">
+      <div className="w-full flex justify-center  text-center">
+        {" "}
+        <a
+          target="_blank"
+          className="bg-orange-500 flex gap-3 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
+          href="https://www.frontendmentor.io/profile/bharathikannansambasivam"
+        >
           {" "}
-          <a
-            className="bg-orange-500 flex gap-3 p-3 rounded-full px-5 text-white font-semibold hover:bg-violet-700 mt-5 "
-            href="https://www.frontendmentor.io/profile/bharathikannansambasivam"
-          >
-            {" "}
-            More Projects
-          </a>
-        </button>
+          More Projects
+        </a>
       </div>
     </div>
   );
