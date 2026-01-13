@@ -1,8 +1,8 @@
 import React from "react";
 import interactiveCard from "../assets/project_icons/interactiveCard.jpg";
-import entertainment from "../assets/project_icons/entertainment.jpg";
+import findmydocs from "../assets/project_icons/fmd-1.png";
 import bookstore from "../assets/project_icons/bookstore.png";
-import todo from "../assets/project_icons/todo.jpg";
+import netflixgpt from "../assets/project_icons/Netflixgpt.png";
 import github from "../assets/skills_icon/github.svg";
 import live from "../assets/project_icons/live.svg";
 import playstore from "../assets/project_icons/playstore.svg";
@@ -10,6 +10,20 @@ import dictionary from "../assets/project_icons/dictionary.jpg";
 
 function Projects() {
   const projects = [
+    {
+      img: findmydocs,
+      project_name: "FindMyDocs – MERN Document Store",
+      Technologies:
+        "MongoDB, Express.js, React, Node.js, Tailwind CSS, React Quill, Formik, Yup, Axios, JWT, OpenRouter (Mistral-7B Instruct).",
+      github_repo:
+        "https://github.com/bharathikannansambasivam/text-editor-frontend",
+      live_url: "https://text-editor-frontend-teal.vercel.app",
+      Playstore_URL:
+        "https://play.google.com/store/apps/details?id=app.vercel.text_editor_frontend_teal.twa&hl=en_IN",
+      features:
+        "Full-stack document management app with CRUD, JWT authentication, dynamic variables ({{name}}), search by title, document preview, editing, downloading, and TWA deployment with Play Store support.",
+    },
+
     {
       img: bookstore,
       project_name: "MERN Bookstore Web App",
@@ -22,26 +36,14 @@ function Projects() {
     },
 
     {
-      img: entertainment,
-      project_name: "MERN Entertainment Web App - Frontend Mentor Challenge",
-      Technologies: "MongoDB, Express.js, React, Node.js, Tailwind CSS.",
-      github_repo:
-        "https://github.com/bharathikannansambasivam/EntertainmentApp",
-      live_url: "https://entertainment-app-navy.vercel.app/",
+      img: netflixgpt,
+      project_name: "NetflixGPT – AI Movie Recommendation App",
+      Technologies:
+        "React, Redux Toolkit, Tailwind CSS, Firebase Authentication, TMDB API, Axios, OpenRouter (Mistral-7B Instruct).",
+      github_repo: "https://github.com/bharathikannansambasivam/Netflix-GPT",
+      live_url: "https://bk-netflixgpt.web.app/",
       features:
-        "Lazy loading, bookmarking, and Storybook implementation for an entertainment app.",
-    },
-
-    {
-      img: todo,
-      project_name: "Todo - TWA",
-      Technologies: "React, Tailwind CSS, Material UI",
-      github_repo: "https://github.com/bharathikannansambasivam/Drag-drop",
-      live_url: "https://drag-drop-beryl-three.vercel.app/",
-      Playstore_URL:
-        "https://play.google.com/store/apps/details?id=app.vercel.drag_drop_2.twa&pcampaignid=web_share",
-      features:
-        "TWA-based to-do app with task management and local storage, available for Play Store installation.",
+        "Netflix-inspired AI movie recommendation app with Firebase authentication and GPT-powered movie suggestions using TMDB posters.",
     },
 
     {
